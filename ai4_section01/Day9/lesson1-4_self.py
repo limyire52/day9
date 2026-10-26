@@ -4,6 +4,7 @@
 API 문서: http://127.0.0.1:8000/docs
 데이터는 메모리에만 저장되므로 서버를 다시 실행하면 초기화됩니다.
 """
+# 깃 연동 테스트
 
 from fastapi import FastAPI, HTTPException, Path, Response
 from pydantic import BaseModel, Field, field_validator
